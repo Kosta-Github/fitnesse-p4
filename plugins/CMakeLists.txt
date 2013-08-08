@@ -13,6 +13,5 @@ file(
     EXPECTED_MD5 c357d8717434947ed4dbbf8de51a8016
 )
 
-add_classpath(citnesse-stndalone.jar)
+add_jar(PerforceCmSytem fitnesse/wiki/cmSystems/PerforceCmSystem.java)
 
-add_jar(PerforceCmSytem.jar fitnesse/wiki/cmSystems/PerforceCmSytem.java)

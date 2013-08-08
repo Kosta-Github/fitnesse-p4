@@ -2,10 +2,10 @@ language: java
 
 install:
   - cd plugins
-  - cmake .
+  - cmake -H. -BBuild
   - cd ..
 
 script:
-  - cd plugins
+  - cd plugins/Build
   - make
-  - cd ..
+  - cd ../..
