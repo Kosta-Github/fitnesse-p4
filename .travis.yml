@@ -8,4 +8,5 @@ install:
 script:
   - cd plugins/Build
   - make
+  - cp PerforceCmSystem.jar ..
   - cd ../..
