@@ -1,0 +1,8 @@
+language: java
+
+install:
+  - cd plugins
+  - cmake
+
+script:
+  - make
