@@ -1,12 +1,10 @@
 language: java
 
 install:
-  - cd plugins
   - cmake -H. -BBuild
-  - cd ..
 
 script:
-  - cd plugins/Build
+  - cd Build
   - make
   - cp PerforceCmSystem.jar ..
-  - cd ../..
+  - cd ..
