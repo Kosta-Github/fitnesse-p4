@@ -1,4 +1,4 @@
-fitnesse-p4[![Build Status](https://travis-ci.org/AIM360/fitnesse-p4.png)](https://travis-ci.org/AIM360/fitnesse-p4)
+fitnesse-p4 [![Build Status](https://travis-ci.org/Kosta-Github/fitnesse-p4.png)](https://travis-ci.org/Kosta-Github/fitnesse-p4)
 ===========
 
 This is a simple plugin for [FitNesse](http://fitnesse.org) which provides a connection between the `FitNesse Wiki` and a `Perforce` repository. This plugin has been tested with the `FitNesse` version `2013-05-30`.
